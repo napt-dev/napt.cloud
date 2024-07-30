@@ -1,3 +1,3 @@
 # unapt.xyz
-My first website project, coded in HTML and CSS
-Probably the most shit way i could have made this LOL
+My first website project, coded in HTML and CSS. 
+This code realistically probably sucks but its my first project so who cares
