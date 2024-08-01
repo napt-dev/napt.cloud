@@ -1,3 +1,3 @@
 # napt.cloud
 My first website project, coded in HTML and CSS. 
-This code realistically probably sucks but its my first project so who cares
+This code is REALLY unoptimized but I will still share it anyway.
