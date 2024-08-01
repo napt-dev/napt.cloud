@@ -221,6 +221,7 @@
     }
     /* end of button css*/
     .content .discord{
+        font-size: large;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -231,7 +232,7 @@
         padding-bottom: 2vh;
         align-items: center;
         width: 50%;
-        height: 30vh;
+        padding: 3vh;
     }
     /* beginning of discord button css */
     .content .discord .discord-button{
@@ -240,7 +241,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 35vh;
+        width: vh;
         height: 15vh;
         background-color: rgb(255, 255, 255);
         padding: 5vh;
@@ -250,6 +251,7 @@
         color: whitesmoke;
         border: none;
         color: black;
+        width: 50vh;
     }
     .content .discord .discord-button:hover{
         background-color: rgb(185, 185, 185);
