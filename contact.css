@@ -1,0 +1,35 @@
+body{
+    font-size: medium;
+}
+.content{
+    display: flex;
+}
+.gmail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .gmail .gmail-button{
+
+    text-decoration: none;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: vh;
+    height: 15vh;
+    padding: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 30px;
+    border: none;
+    width: 50vh;
+    background-image: linear-gradient(to left, rgb(242, 123, 12), rgb(242,166,12));
+}
+.content .gmail .gmail-button:hover{
+    background-image: linear-gradient(to left, rgb(200, 123, 12), rgb(200,166,12));
+}
+.content .gmail .gmail-button #mail-icon{
+    color: black;
+    padding-right: 1vh;
+}
