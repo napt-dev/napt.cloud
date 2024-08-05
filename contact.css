@@ -24,10 +24,10 @@ body{
     border-radius: 30px;
     border: none;
     width: 50vh;
-    background-image: linear-gradient(to left, rgb(242, 123, 12), rgb(242,166,12));
+    background-color: rgb(255, 166, 0);
 }
 .content .gmail .gmail-button:hover{
-    background-image: linear-gradient(to left, rgb(200, 123, 12), rgb(200,166,12));
+    background-color: rgb(173, 113, 0);
 }
 .content .gmail .gmail-button #mail-icon{
     color: black;
