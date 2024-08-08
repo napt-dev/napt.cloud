@@ -1,35 +1,34 @@
-body{
-    font-size: medium;
+body {
+  font-size: medium;
 }
-.content{
-    display: flex;
+.content {
+  display: flex;
 }
-.gmail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.gmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.content .gmail .gmail-button{
-
-    text-decoration: none;
-    font-size: large;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: vh;
-    height: 15vh;
-    padding: 5vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    border-radius: 30px;
-    border: none;
-    width: 50vh;
-    background-color: rgb(255, 166, 0);
+.content .gmail .gmail-button {
+  text-decoration: none;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: vh;
+  height: 15vh;
+  padding: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-radius: 30px;
+  border: none;
+  width: 50vh;
+  background-color: rgb(255, 166, 0);
 }
-.content .gmail .gmail-button:hover{
-    background-color: rgb(173, 113, 0);
+.content .gmail .gmail-button:hover {
+  background-color: rgb(173, 113, 0);
 }
-.content .gmail .gmail-button #mail-icon{
-    color: black;
-    padding-right: 1vh;
+.content .gmail .gmail-button #mail-icon {
+  color: black;
+  padding-right: 1vh;
 }
