@@ -207,6 +207,9 @@ body {
   .content .story {
     width: 80%;
   }
+  .content #projects .project-button {
+  width:30vh;
+  }
   .content .discord {
     width: 80%;
     font-size: small;
@@ -214,15 +217,13 @@ body {
   .content .discord .discord-button {
     font-size: small;
     height: 10vh;
+    width: 35vh;
   }
   .footer .socials .fa-brands {
     padding-right: 0.5vh;
   }
   .footer #date {
     width: 80%;
-  }
-  .content .github .github-button{
-    width: 60vh;
   }
 }
 
