@@ -1,60 +1,67 @@
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-
-.content .github-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.content .github-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.projects{
-    background-color: rgb(56, 56, 56);
-    border-radius: 20px;
-    display: flex;
-    width: 60%;
-    transition-duration: 0.4s;
+.projects {
+  background-color: rgb(56, 56, 56);
+  border-radius: 20px;
+  display: flex;
+  width: 60%;
+  transition-duration: 0.4s;
 }
-.projects:hover{
-    background-color: rgb(48, 48, 48);
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+.projects:hover {
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.projects #napt-cloud{
-    transition-duration: 0.4s;
-    background-color: rgb(43, 43, 43);
-    padding: 10px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    border-radius: 20px;
+.projects #napt-cloud {
+  transition-duration: 0.4s;
+  background-color: rgb(43, 43, 43);
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
 }
-.projects #napt-cloud:hover{
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+.projects #napt-cloud:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-.projects #tracker{
-    transition-duration: 0.4s;
-    background-color: rgb(43, 43, 43);
-    padding: 10px;
-    margin: 15px;
-    border-radius: 20px;
+.projects #tracker {
+  transition-duration: 0.4s;
+  background-color: rgb(43, 43, 43);
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
 }
-.projects #tracker:hover{
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+.projects #tracker:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-width: 540px) {
-    .projects{
-        flex-direction: column;
-        width: 90%;
-    }
-    .github .github-button{
-        width: 50vh;
-    }
+  .projects {
+    flex-direction: column;
+    width: 90%;
+  }
+  .projects #napt-cloud {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .github .github-button {
+    width: 50vh;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .projects {
+    flex-direction: column;
+  }
 }
